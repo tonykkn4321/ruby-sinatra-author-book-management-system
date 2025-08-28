@@ -8,3 +8,5 @@ gem 'pg'
 gem 'sqlite3'
 gem 'dotenv'
 gem 'rake'
+gem 'sinatra-contrib'
+
