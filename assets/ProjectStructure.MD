@@ -13,7 +13,11 @@ sinatra-author-book-management-system/
 ├── Gemfile
 └── .env
 
-# Run this to auto-create tables:
+
+# To install all dependencies:
+bundle install
+
+# Run this to auto-create tables (if not defined in app.rb):
 bundle exec rake db:create
 bundle exec rake db:migrate
 
