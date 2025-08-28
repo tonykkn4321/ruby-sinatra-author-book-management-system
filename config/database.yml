@@ -1,0 +1,17 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  database: author_book_management_system
+  username: root
+  password: Aa161616
+  host: localhost
+
+test:
+  adapter: sqlite3
+  database: ./test.sqlite
+
+production:
+  url: <%= ENV['DATABASE_URL'] %>
+  adapter: postgresql
+  encoding: unicode
+  sslmode: require
