@@ -2,11 +2,9 @@ source 'https://rubygems.org'
 
 ruby '3.4.5'
 gem 'sinatra'
-gem 'sinatra-activerecord'
-gem 'mysql2'
+gem 'sinatra-activerecord'  # ORM for database interaction
 gem 'pg'
-gem 'sqlite3'
 gem 'dotenv'
 gem 'rake'
-gem 'sinatra-contrib'
+gem 'sinatra-contrib'  # For additional helpers
 
