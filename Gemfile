@@ -7,4 +7,6 @@ gem 'pg'
 gem 'dotenv'
 gem 'rake'
 gem 'sinatra-contrib'  # For additional helpers
+gem 'puma'
+gem 'rackup'
 
